@@ -4,9 +4,9 @@ An arena for comparing topic model quality.
 ## What do we want from a topic model:
 
 1. Sensible overview:
-   - Should be **representative** of the documents (Task 1)
-   - Should be **informative** (*TODO* find relevant task)
-   - Should be **corpus specific** (Task 3)
+   - Should be **representative** of the documents: As many documents' content should be covered as possible. (Task 1)
+   - Should be **informative**: You should gain as much information about the corpus as possible. (*TODO* find relevant task)
+   - Should be **corpus specific**: You should gain information about *this* corpus, and preferably not just about general themes. (Task 3)
 2. Getting into the weeds - Filtering/Retrieval
    - Should get **relevant** documents when retrieving based on one topic (Task 2)
 3. Discourse analysis (dynamic models, optional)
